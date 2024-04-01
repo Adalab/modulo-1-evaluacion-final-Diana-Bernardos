@@ -15,8 +15,8 @@
 
 .table{
    
-    display:flex;
-    flex-direction: column;
+    display:grid;
+    grid-template-columns: 1fr;
     text-align: center;
     margin-top: 10px;
     background-color:#eff9ff;
