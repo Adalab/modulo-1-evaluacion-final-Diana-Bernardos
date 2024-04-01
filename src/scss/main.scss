@@ -1,10 +1,31 @@
-/*@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
-*/
+*{
+    margin:0 ;
+    padding: 0;
+
+    box-sizing: border-boxs;
+}
+
+
+
+
+:root {
+    --white: #fff;
+    --ice-blue: #eff9ff;
+    --greyish-brown: #4a4a4a;
+    --button:#f26002;
+    --bgdark:#304268;
+    --texstyle:"Roboto",sans-serif;
+    --titlestyle:"Roboto Slab",serif;
+    
+  }
+
+@import"./core/reset";
+
+@import"./core/variables";
+
+@import"./layout/header.scss";
+@import"./layout/sec2.scss";
+@import"./layout/sec3.scss";
+@import"./layout/footer.scss";
+
 
